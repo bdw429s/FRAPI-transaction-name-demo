@@ -20,7 +20,9 @@ function onApplicationStart() {
 }
 ```
 
-You can create the CFC instance wherever you want, but only create one instance.  Don't re-created the CFC on every request.
+You can create the CFC instance wherever you want, but only create one instance.  Don't re-create the CFC on every request.
+
+Adjust the component path as-neccessary based on where you place the FRAPI SDK files. 
 
 ## Set the transaction name
 
@@ -30,7 +32,7 @@ Now, inside our request, we can use the `setCurrentTransactionName()` method to 
 <cfset application.FRAPI.setCurrentTransactionName( pageName )>
 ```
 
-Now in the FusionReactor "Request History" page, we can see our custon transaction name under the `App/Txn` column.  
+Now in the FusionReactor "Request History" page, we can see our custom transaction name under the `App/Txn` column.  
 
 ---
 

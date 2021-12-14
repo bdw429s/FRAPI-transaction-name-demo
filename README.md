@@ -43,3 +43,26 @@ Here is what your default transaction name may look like:
 And here is an example of what your custom transaction name will look like:
 
 ![Default Transaction Name](/images/custom-name.png)
+
+## Run This Demo
+
+You can easily run this demo using CommandBox like so:
+
+1. Clone the repo
+1. Install the FusionReactor module for CommandBox
+1. Add your FusionReactor license key
+1. Start the server
+1. Navigate to FusionReactor's web UI
+
+You can accomplish these steps with the following commands from your CommandBox CLI:
+
+```bash
+CommandBox> !git clone https://github.com/bdw429s/FRAPI-transaction-name-demo.git
+CommandBox> cd FRAPI-transaction-name-demo
+CommandBox> install
+CommandBox> fr register XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+CommandBox> server start 
+CommandBox> fr open
+```
+
+Now you can navigate around the site and see how FusionReactor tracks the pages!

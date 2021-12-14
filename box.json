@@ -1,0 +1,9 @@
+{
+    "dependencies":{
+        "FRAPISDK":"^1.0.4",
+        "commandbox-fusionreactor":"stable"
+    },
+    "installPaths":{
+        "FRAPISDK":"modules/FRAPISDK/"
+    }
+}
